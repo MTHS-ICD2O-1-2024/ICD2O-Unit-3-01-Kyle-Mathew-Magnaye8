@@ -1,5 +1,5 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2025 kyle.matthew.magnaye All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: kyle.matthew.magnaye
+// Created on: Mar 2025
 // This file contains the JS functions for index.html
