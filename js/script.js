@@ -6,17 +6,17 @@
 
 // script.js
 function calculateArea() {
-  const a = parseFloat(document.getElementById("base1").value)
-  const b = parseFloat(document.getElementById("base2").value)
-  const h = parseFloat(document.getElementById("height").value)
+  const AOfATrapezoid = parseFloat(document.getElementById("a-base-of-a-trapezoid").value)
+  const BOfATrapezoid = parseFloat(document.getElementById("b-base-of-a-trapezoid").value)
+  const HeightoFATrapezoid = parseFloat(document.getElementById("height-of-a-trapezoid").value)
 
-  if (isNaN(a) || isNaN(b) || isNaN(h)) {
+  if (isNaN(AOfATrapezoid) || isNaN(BOfATrapezoid) || isNaN(HeightoFATrapezoid)) {
     document.getElementById("user-info").innerText =
       "Please enter valid numbers."
     return
   }
 
-  const area = ((a + b) / 2) * h
+  const area = ((AOfATrapezoid + BOfATrapezoid) / 2) * HeightoFATrapezoid
   document.getElementById("user-info").innerText =
     "Area: " + area.toFixed() + "mm²"
 }
